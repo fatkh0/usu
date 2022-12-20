@@ -24,7 +24,7 @@ npm install
 ```
 npm run dev
 ```
-## Open your browser and past text bellow into adress bar
+## Open your browser and paste text bellow into adress bar
 
 ```
 http://localhost:3000/
