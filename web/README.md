@@ -1,6 +1,8 @@
-# Open terminal
+# How to run the project locally
 
-# Clone repository
+## Open terminal
+
+## Clone repository
 ```
 git clone https://github.com/fatkh0/usu.git
 ```
@@ -21,4 +23,9 @@ npm install
 
 ```
 npm run dev
+```
+## Open your browser and past text bellow into adress bar
+
+```
+http://localhost:3000/
 ```
