@@ -2,7 +2,7 @@
 
 # Clone repository
 ```
-https://github.com/fatkh0/usu.git
+git clone https://github.com/fatkh0/usu.git
 ```
 
 ## Change directory
