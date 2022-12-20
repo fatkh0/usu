@@ -1,0 +1,51 @@
+@import '../../../styles/vars';
+
+.employee {
+    padding: 10px;
+    position: relative;
+
+    border: 1px solid $color-gray-600;
+
+    align-self: stretch;
+    
+    background-color: $color-while;
+}
+
+.mainInfo {
+    margin-bottom: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    color: $color-blue-1000;
+    margin-right: 10px;
+}
+
+.age {
+    color: $color-blue-600;
+}
+
+.position {
+    color: $color-blue-900;
+}
+
+.deleteButton {
+    height: 22px;
+    width: 22px;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: $color-red-1000;
+    border: none;
+    box-shadow: none;
+    color: $color-while;
+    cursor: pointer;
+}

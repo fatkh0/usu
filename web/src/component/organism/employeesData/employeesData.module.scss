@@ -1,0 +1,37 @@
+@import '../../../styles/vars';
+
+.employeesData {
+    display: block;
+}
+
+.head {
+    & .row {
+        background-color: $color-gray-600;
+    }
+}
+
+.body {
+    & .cell {
+        border: 1px solid $color-blue-1000;
+    }
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+
+    &:nth-child(2n) {
+
+        .cell {
+            background-color: $color-gray-100;
+        }
+        
+    }
+}
+
+.cell {
+    text-align: start;
+    padding: 10px;
+}

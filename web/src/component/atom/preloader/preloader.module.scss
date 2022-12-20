@@ -1,0 +1,17 @@
+@import '../../../styles/vars';
+
+.preloader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-blue-1000;
+    opacity: 0.7;
+    font-size: 30px;
+    position: absolute;
+    z-index: 100000;
+    color: $color-while;
+    left: 0;
+    top: 0;
+}

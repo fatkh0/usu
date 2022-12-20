@@ -1,0 +1,13 @@
+@import '../../../styles/vars';
+
+.allEmployees {
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+    @media (min-width: $greater-than-tablet) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

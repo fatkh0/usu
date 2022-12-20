@@ -1,0 +1,23 @@
+@import '../../../styles/vars';
+
+.navigationLink {
+
+  padding: 5px 15px;
+
+
+  border-bottom: 1px solid #1c2e4a;
+
+  font-weight: 400;
+  color: $color-while;
+
+  &Inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.active {
+  font-weight: 700;
+}
+
